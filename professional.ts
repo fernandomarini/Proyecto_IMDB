@@ -31,9 +31,6 @@ class Professional {
 
 };
 
-let film1 = new Professional("Nombre1",43,52,21,true,"Frances",1,"Programador" );
-
-film1.printConsolePar();
 
 
 export { Professional }
