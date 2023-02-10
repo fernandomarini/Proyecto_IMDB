@@ -14,10 +14,10 @@ class Professional {
 
 
     // Metodos
-    public printConsolePar( ):string {
+    public printConsolePar( ):void {
         let strinProf: string = "";
         strinProf = (
-            `Name ${this.name} \n
+            `            Name: ${this.name} \n
             Age: ${this.age} \n
             Weight: ${this.weight} \n
             Height: ${this.height} \n
@@ -25,13 +25,15 @@ class Professional {
             Nationality: ${this.nationality} \n
             Ocar: ${this.oscarsNumber} \n
             Profession : ${this.profession} \n`)
-        return strinProf;
+        //return strinProf;
         console.log(strinProf);
     };
 
 };
 
+let film1 = new Professional("Nombre1",43,52,21,true,"Frances",1,"Programador" );
 
+film1.printConsolePar();
 
 
 export { Professional }
