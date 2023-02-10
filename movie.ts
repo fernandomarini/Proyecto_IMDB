@@ -1,5 +1,6 @@
 //Clase Movie
 import { Professional } from "./professional";
+
 export class Movie{
     public title:string;
     public releaseYear:number;
@@ -40,3 +41,4 @@ export class Movie{
                     "\n Genre: " + this.genre);
     };
 }
+
